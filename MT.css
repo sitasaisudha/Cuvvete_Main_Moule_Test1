@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(152, 240, 155);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+#it{
+    height: 70px;
+    width: 100px;
+    background-color: white;
+}
+.container li{
+    list-style: none;
+}
+.container span{
+    height: 35px;
+    width: 35px;
+ 
+    font-size: 40px;
+}
+.container2{
+    margin-top: 100px;
+    height: 200px;
+    width: 500px;
+    display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+   
+
+}
+.l1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.l2{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+#btn1{
+    border: 15px solid rgb(214, 57, 214);
+
+}
+#btn2{
+    border: 15px solid rgb(57, 183, 214);
+}
+#btn3{
+    border: 15px solid rgb(214, 128, 57);
+}
+/* .foot{
+   margin-top: 0px;
+} */
+.rules{
+    height: 250px;
+    width: 290px;
+    float: right;
+    background-color: green;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+.rules li{
+    list-style-type: square;
+   color: yellow;
+}
+.rules #into{
+    float: right;
+    float: top;
+    margin-bottom: 30px;
+    background-color: red;
+
+}
+#rbtn{
+    position: absolute;
+    top: 580px;
+    right: 100px;
+    margin-top: 100px;
+    float: right;
+    /* margin-left: 700px; */
+}
+.rules{
+    position: absolute;
+   top: -100rem;
+   
+}
+.rules.active{
+    top: 400px;
+    right: 100px;
+    float: right;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+   height: 200px;
+   width: 900px;
+   margin-bottom: 100px;
+   
+}
+
+
+.bigdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 250px;
+    width: 400px;
+    /* border: 2px solid red; */
+}
+.bigdiv h1{
+    align-self: center;
+}
+.c{
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;  
+    border: 15px solid rgb(214, 128, 57);
+}
+.bigdiv .u{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 25px solid green;
+    /* box-shadow: 10px 10px 10px 10px; */
+    box-shadow: 0 0 0 13px #65e175;
+    box-shadow: 0 0 0 23px #93e99f;
+
+}
+#smalldiv{
+    align-self: center;
+}
+#replay,#nxt,#rbtn{
+    height: 55px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(152, 240, 155);
+    border: 1px solid white;
+    color: white;
+   
+}
+#rbtn:hover{
+    background-color: green;
+}
+#replay:hover{
+    background-color: green;
+}
+#nxt:hover{
+    background-color: green;
+}
+.bigdiv h1{
+    font-size: 35px;
+}
+#h{
+    font-size: 80px;
+}
+
